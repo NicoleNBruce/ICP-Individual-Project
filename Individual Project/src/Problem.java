@@ -30,13 +30,9 @@ class Problem{
      * @param state The current state of the problem
      * @return The goal test is returning true if the state is the goal state.
      */
-    public boolean goal_test(Airport state) {
-        boolean check =false;
+     public boolean goal_test(Airport state) {
         List<Airport> dests = airports.get(this.goal_state);
-        for(Airport airport: dests) {
-            check = airport.equals(state);
-        }
-        return check;
+        return dests.contains(state);
     }
 
     /**
