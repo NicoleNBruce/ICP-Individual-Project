@@ -11,4 +11,4 @@ RouteFinding class - The RouteFinding class implements a breadth first algorithm
 
 Main class - The program is run from this class. Here, the paths to the input file and the data files to be read from are passed into the program.
 
-To run the program, you must download the project and run the Main class. If you want to try other sources and destinations, create a txt file with the city and country of both the source and destination airports, and name it in the format "sourcecity-destinationcity".txt. An example input file named 'accra-winnepeg.txt' is in the folder and can serve as a template.
+To run the program, you must download the project and run the Main class. If you want to try other sources and destinations, create a txt file with the city and country (separated by a space) of both the source and destination airports, and name it in the format "sourcecity-destinationcity".txt. An example input file named 'accra-winnipeg.txt' is in the folder and can serve as a template.
